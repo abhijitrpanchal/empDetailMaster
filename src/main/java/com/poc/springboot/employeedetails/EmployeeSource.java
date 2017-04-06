@@ -21,10 +21,16 @@ public class EmployeeSource {
         emp3.setId("03");
         emp3.setName("Phil");
         emp3.setAge(22);
+
+        Employee emp4 = new Employee();
+        emp3.setId("04");
+        emp3.setName("Mat");
+        emp3.setAge(25);
         
         EMPLOYEES.put(emp1.getId(), emp1);
         EMPLOYEES.put(emp2.getId(), emp2);
         EMPLOYEES.put(emp3.getId(), emp3);
+        EMPLOYEES.put(emp4.getId(), emp4);
     }
     
     public static Collection<Employee> getEmployees() {
